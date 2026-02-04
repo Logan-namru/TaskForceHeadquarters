@@ -1,0 +1,15 @@
+Created log at: '5/19/2025 12:42:25 PM'
+TryToLoadIni()
+ini file at path: 'NAMRU Data\ini.txt' does not exist. Using default settings.
+StartFennec()
+TryToFindOrCreateTrialResultsDirectory(dirPath_TrialResultsDirectory: 'NAMRU Data\TrialResults')
+TryToFindOrCreateDirectory(dirPath_passed: 'NAMRU Data\TrialResults')
+DID find already existing directory at: 'NAMRU Data\TrialResults'.
+[Player] >> Awake()
+[NamruSessionManager].Start()
+	End of [NamruSessionManager].Start()...
+[Player] >> Start()
+CloseMe()
+CloseUDPConnection()
+Was going to close udpClient, but found it was already null...
+DisposeAllWriters()
